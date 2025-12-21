@@ -8,7 +8,6 @@ import {
     BeforeUpdate,
 } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { copyFile } from 'fs';
 
 export enum UserRole{
     USER = 'USER',
